@@ -306,6 +306,10 @@ footer {
   background-size: cover;
 }
 
+  .header > div {
+    display: none;
+  }
+
 @media (min-width: 320px) {
   .back-top-btn {
     bottom: 74px;
@@ -511,6 +515,10 @@ footer {
   }
 
   .top {
+    display: block;
+  }
+
+  .header > div {
     display: block;
   }
 }
