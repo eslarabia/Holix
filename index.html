@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body class="bg-white relative" oncontextmenu="return false;">
+        <!-- # Start Header -->
+        <header data-header>
+            <div class="header flex justify-content-center items-center fixed py-3 px-3 w-full gap-5 z-50" data-container>
+                <a href="#" class="logo flex justify-center items-center gap-1 text-white text-3xl font-serif"><ion-icon name="home-outline" class="text-blue-600 text-xl mb-mB"></ion-icon>Holix</a>
+                <div>
+                    <div class="service-nav d-none" data-service-nav>
+                        <nav class="navbar bg-white border py-2 px-2 rounded-md flex flex-col" data-navbar>
+                            <div class="ld grid grid-flow-row xl:grid-flow-col p-0 xl:gap-12">
+                                <ul class="navbar-list flex flex-col gap-2 border-b pb-2 xl:gap-12">
+                                    <li><a href="#Home" class="navbar-link text-black text-sm hover:text-blue-500" data-nav-link>Home</a></li>
+                                    <li><a href="#slider" class="navbar-link text-black text-sm hover:text-blue-400" data-nav-link>About</a></li>
+                                    <li><a href="#Projects" class="navbar-link text-black text-sm hover:text-blue-400" data-nav-link>Projects</a></li>
+                                    <li><a href="#stats" class="navbar-link text-black text-sm hover:text-blue-400" data-nav-link>Blog</a></li>
+                                    <li><a href="#Contact" class="navbar-link text-black text-sm hover:text-blue-400" data-nav-link>Contact</a></li>
+                                </ul>
+                                <div class="log grid grid-flow-row xl:grid-flow-col gap-2 pt-2">
+                                    <a href="#" class="text-sm hover:text-blue-500">login</a>
+                                    <button class="btn bg-blue-700 text-white rounded-full px-4 py-2 text-sm hover:bg-blue-600 xl:w-32 xl:px-0">Get Started</button>
+                                </div>
+                            </div>
+    
+                        </nav>
+                    </div>
+                </div>
+
+                <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon text-xl bg-slate-50 text-black rounded-sm px-1 py-1"></ion-icon>
+                    <ion-icon name="close-outline" aria-hidden="true" class="close-icon text-xl bg-slate-50 text-black rounded-sm px-1 py-1"></ion-icon>
+                </button>
+            </div>
+
+            <section class="section-one bg-zinc-800 grid gap-4 sm:gap-5 sm:pb-5 sm:px-10 px-sm-2" id="Home">
+                <div class="container mt-32 h-fit px-3 sm:px-0">
+                    <div class="section">
+                        <h1 class="text-white text-4xl mb-3 sm:text-4xl" data-aos="fade-down" data-aos-duration="200">Discover Most Suitable Property</h1>
+                        <p class="lead text-white-50" data-aos="fade-down" data-aos-duration="300">Find a variety of properties that suit yiu very easy target all difficulties in finding a residence for you</p>
+
+                        <div class="input relative inline-block mt-4" data-aos="fade-down" data-aos-duration="400">
+                            <input type="text" placeholder="Search by location..." class="border-1 border-blue-500 focus:outline-0 focus:border-blue-600 rounded-md ">
+                            <label class="btn bg-blue-700 rounded-md text-white absolute mb-0 hover:bg-blue-600">Search</label>
+                            <ion-icon name="location-outline" class="text-blue-500 absolute"></ion-icon>
+                        </div>
+
+                        <div class="counter mt-4" data-aos="fade-down" data-aos-duration="500">
+                            <ul class="counter-list list-none flex flex-row gap-7 text-center">
+                                <li class="text-white">
+                                    <div class="card1">
+                                        <h1 class="relative inline-block text-2xl">9k</h1>
+                                        <p class="lead text-white-50">premunire product</p>
+                                    </div>
+                                </li>
+
+                                <li class="text-white">
+                                    <div class="card1">
+                                        <h1 class="relative inline-block text-2xl">2k</h1>
+                                        <p class="lead text-white-50">Happy Customer</p>
+                                    </div>
+                                </li>
+
+                                <li class="text-white">
+                                    <div class="card1">
+                                        <h1 class="relative inline-block text-2xl">28k</h1>
+                                        <p class="lead text-white-50">Award Warring</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-section" data-aos="fade-right">
+                    <div class="container px-3 xl:mt-20">
+                        <figure class="img-figure rounded-b-md" style="--width: 900; --height: 1000;">
+                                <img src="img-tailwind/home.jpg" class="w-full h-full rounded-t-full translate-y-8 shadow-xl">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- # End Header -->
+
+        <!-- Start-section-two -->
+        <section class="section-two mt-20 flex justify-center mb-20">
+            <div class="container-fluid px-0 px-sm-2 mx-0">
+                <div class="icons-service">
+                    <ul class="service-list grid grid-cols-3 sm:grid-cols-4 gap-x-2 gap-y-6 gap-sm-4 gap-md-5">
+                        <li>
+                            <figure style="--width:900; --height: 600;" class="flex justify-center items-center" data-aos="fade-down" data-aos-duration="3000">
+                                <img src="img-tailwind/logo1.png">
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure style="--width:900; --height: 600;" class="flex justify-center items-center" data-aos="fade-down" data-aos-duration="2000">
+                                <img src="img-tailwind/logo2.png">
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure style="--width:900; --height: 600;" class="flex justify-center items-center" data-aos="fade-down" data-aos-duration="1500">
+                                <img src="img-tailwind/logo3.png">
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure style="--width:900; --height: 600;" class="flex justify-center items-center" data-aos="fade-down" data-aos-duration="2000">
+                                <img src="img-tailwind/logo4.png">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End-section-two -->
+
+        <section  class="section-three px-3 mb-20" >
+            <div class="container-fluid px-0">
+                <div class="flex flex-column gap-1 mb-4"  id="slider" data-aos="fade-down" data-aos-duration="1000">
+                    <span class="text-amber-500 text-lg">Best Choose</span>
+                    <h2 class="text-blue-700 text-2xl font-semibold" >Popular Residence</h2>
+                </div>
+                <div class="wrapper position-relative" data-aos="fade-down" data-aos-duration="2100">
+                    <ul class="slider-list grid grid-flow-col list-none">
+                        <li>
+                            <div class="cards p-2 rounded-xl bg-slate-50 cursor-pointer">
+                                <figure class="img-slider" style="--width: 1000; --height: 800;">
+                                    <img src="img-tailwind/popular1.jpg" class="w-full h-full object-cover rounded-xl">
+                                </figure>
+                                <div class="cards-title mt-3">
+                                    <span class="flex items-center text-gray-500 gap-1"><h6 class="text-amber-500">$</h6>62.024</span>
+                                    <h3 class="text-lg font-semibold text-blue-700 mt-1">Garden Orchard City</h3>
+                                    <p class="lead text-sm mt-2 mb-1">Street The Garden City Of Macro Limo Phenix Ax - Soi #7465</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="cards p-2 rounded-xl bg-slate-50 cursor-pointer">
+                                <figure class="img-slider" style="--width: 1000; --height: 800;">
+                                    <img src="img-tailwind/popular2.jpg" class="w-full h-full object-cover rounded-xl">
+                                </figure>
+                                <div class="cards-title mt-3">
+                                    <span class="flex items-center text-gray-500 gap-1"><h6 class="text-amber-500">$</h6>32.074</span>
+                                    <h3 class="text-lg font-semibold text-blue-700 mt-1">Luxrious City Garden</h3>
+                                    <p class="lead text-sm mt-2 mb-1">Street The Garden City Of Macro Limo Phenix Ax - Soi #7465</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="cards p-2 rounded-xl bg-slate-50 cursor-pointer">
+                                <figure class="img-slider" style="--width: 1000; --height: 800;">
+                                    <img src="img-tailwind/popular3.jpg" class="w-full h-full object-cover rounded-xl">
+                                </figure>
+                                <div class="cards-title mt-3">
+                                    <span class="flex items-center text-gray-500 gap-1"><h6 class="text-amber-500">$</h6>27.093</span>
+                                    <h3 class="text-lg font-semibold text-blue-700 mt-1">Garden City Assat</h3>
+                                    <p class="lead text-sm mt-2 mb-1">Street The Garden City Of Macro Limo Phenix Ax - Soi #7465</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="cards p-2 rounded-xl  bg-slate-50 cursor-pointer">
+                                <figure class="img-slider" style="--width: 1000; --height: 800;">
+                                    <img src="img-tailwind/popular4.jpg" class="w-full h-full object-cover rounded-xl">
+                                </figure>
+                                <div class="cards-title mt-3">
+                                    <span class="flex items-center text-gray-500 gap-1"><h6 class="text-amber-500">$</h6>99.024</span>
+                                    <h3 class="text-lg font-semibold text-blue-700 mt-1">Luxrious City House</h3>
+                                    <p class="lead text-sm mt-2 mb-1">Street The Garden City Of Macro Limo Phenix Ax - Soi #7465</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="cards p-2 rounded-xl bg-slate-50 cursor-pointer">
+                                <figure class="img-slider" style="--width: 1000; --height: 800;">
+                                    <img src="img-tailwind/popular5.jpg" class="w-full h-full object-cover rounded-xl">
+                                </figure>
+                                <div class="cards-title mt-3">
+                                    <span class="flex items-center text-gray-500 gap-1"><h6 class="text-amber-500">$</h6>102.24</span>
+                                    <h3 class="text-lg font-semibold text-blue-700 mt-1">Orchard Luxrious City</h3>
+                                    <p class="lead text-sm mt-2 mb-1">Street The Garden City Of Macro Limo Phenix Ax - Soi #7465</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="icons-slider flex items-center justify-center gap-3 mt-3">
+                        <div id="left" class="icon-one rotate-180 inline-block px-2 py-1 border-1 border-slate-200 rounded-lg hover:bg-blue-700 cursor-pointer">
+                            <ion-icon name="chevron-forward-outline" role="img" class="md hydrated text-blue-700"></ion-icon>
+                        </div>
+                        
+                        <div id="right" class="icon-one inline-block px-2 py-1 border-1 border-slate-200 rounded-lg hover:bg-blue-700 cursor-pointer">
+                            <ion-icon name="chevron-forward-outline" role="img" class="md hydrated text-blue-700"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-four mb-20" id="Projects">
+          <div class="container-fluid">
+            <ul class="value-list">
+              <li>
+                <div class="value-card" data-aos="fade-right">
+                  <figure class="img-value" style="--width: 900; --height: 600;">
+                    <img src="img-tailwind/value.jpg" class="object-inherit">
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="value-body" data-aos="fade-right" data-aos-duration="500">
+                  <span class="text-amber-500">Our Value</span>
+                  <h1 class="font-semibold">Value We Give To You.</h1>
+                  <p class="lead my-3">We always ready to help by providing the best sevice for you we believe a good place to live can make your life better</p>
+                </div>
+
+                <ul class="title-wrapper mt-5 grid gap-3">
+                  <li data-aos="fade-right" data-aos-duration="1100">
+                      <div class="wrapper">
+                          <div class="collapsible border-1 border-slate-200 rounded-lg py-2 px-2">
+                              <input type="checkbox" id="input-one" class="d-none">
+                              <label for="input-one">
+                                <div class="flex items-center gap-2">
+                                  <ion-icon name="layers-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon><p class="font-semibold font-sans">Best interest rotes on the market</p>
+                                </div>
+                                <ion-icon name="chevron-forward-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon></label>
+                              <div class="collapsible-text">
+                                <p class="pt-3 px-3">Price we provide is the best for you we grant no price changes on your property dua to various unexpected costs that may come.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="1300">
+                      <div class="wrapper">
+                          <div class="collapsible border-1 border-slate-200 rounded-lg py-2 px-2">
+                              <input type="checkbox" id="input-two" class="d-none">
+                              <label for="input-two">
+                                <div class="flex items-center gap-2">
+                                  <ion-icon name="stats-chart-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon><p class="font-semibold font-sans">Prevent unstable prices</p>
+                                </div>
+                                <ion-icon name="chevron-forward-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon></label>
+                              <div class="collapsible-text">
+                                <p class="pt-3 px-3">Price we provide is the best for you we grant no price changes on your property dua to various unexpected costs that may come.</p>
+                            </div>
+                          </div>
+                      </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="1500">
+                      <div class="wrapper">
+                          <div class="collapsible border-1 border-slate-200 rounded-lg py-2 px-2">
+                              <input type="checkbox" id="input-three" class="d-none">
+                              <label for="input-three">
+                                <div class="flex items-center gap-2">
+                                  <ion-icon name="sparkles-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon>
+                                  <p class="font-semibold font-sans">Best Prices on the market</p>
+                                </div>
+                                <ion-icon name="chevron-forward-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon></label>
+                              <div class="collapsible-text">
+                                <p class="pt-3 px-3">Price we provide is the best for you we grant no price changes on your property dua to various unexpected costs that may come.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="1700">
+                    <div class="wrapper">
+                        <div class="collapsible border-1 border-slate-200 rounded-lg py-2 px-2">
+                            <input type="checkbox" id="input-four" class="d-none">
+                            <label for="input-four">
+                              <div class="flex items-center gap-2">
+                                <ion-icon name="server-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon>
+                                <p class="font-semibold font-sans">Security of your data</p>
+                              </div>
+                              <ion-icon name="chevron-forward-outline" class="bg-slate-100 px-1 py-1 rounded-md"></ion-icon></label>
+                            <div class="collapsible-text">
+                              <p class="pt-3 px-3">Price we provide is the best for you we grant no price changes on your property dua to various unexpected costs that may come.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section-five mb-20" id="Contact">
+          <div class="container-fluid">
+            <ul class="contact-list">
+              <li>
+                <div class="contact-img" data-aos="fade-right">
+                  <figure class="figure-contact" style="--width: 900; --height: 600;">
+                    <img src="img-tailwind/contact.png" class="object-inherit">
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div class="contact-body" data-aos="fade-right" data-aos-duration="900">
+                  <span class="text-amber-500">Contact us</span>
+                  <h1 class="font-semibold">Easy to contact us</h1>
+                  <p class="lead my-3">We always ready to help by providing the best sevice for you we believe a good place to live can make your life better</p>
+                </div>
+
+                <ul class="contact-service grid grid-cols-2 grid-rows-2 gap-3 mt-5">
+                  <li data-aos="fade-right" data-aos-duration="1400">
+                    <div class="car-con p-2 border-1 border-slate-100 rounded-md hover:shadow-lg">
+                      <div class="flex items-center gap-3">
+                        <ion-icon name="call-outline" class="bg-slate-100 px-1 py-1 rounded-md text-blue-700"></ion-icon>
+                        <div>
+                          <h3 class="font-semibold">call</h3>
+                          <p class="text-gray-400">01152341782</p>
+                        </div>
+                      </div>
+                      <button class="bg-blue-50 text-blue-700 py-2 px-4 rounded-md mt-4 w-100 font-semibold">Call Now</button>
+                    </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="1800">
+                    <div class="car-con p-2 border-1 border-slate-100 rounded-md hover:shadow-lg">
+                      <div class="flex items-center gap-3">
+                        <ion-icon name="chatbubble-ellipses-outline" class="bg-slate-100 px-1 py-1 rounded-md text-blue-700"></ion-icon>
+                        <div>
+                          <h3 class="font-semibold">Chat</h3>
+                          <p class="text-gray-400">01152341782</p>
+                        </div>
+                      </div>
+                      <button class="bg-blue-50 text-blue-700 py-2 px-4 rounded-md mt-4 w-100 font-semibold">Chat Now</button>
+                    </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="2100">
+                    <div class="car-con p-2 border-1 border-slate-100 rounded-md hover:shadow-lg">
+                      <div class="flex items-center gap-3">
+                        <ion-icon name="videocam-outline" class="bg-slate-100 px-1 py-1 rounded-md text-blue-700"></ion-icon>
+                        <div>
+                          <h3 class="font-semibold">Video call</h3>
+                          <p class="text-gray-400">01152341782</p>
+                        </div>
+                      </div>
+                      <button class="bg-blue-50 text-blue-700 py-2 px-4 rounded-md mt-4 w-100 font-semibold">Video Now</button>
+                    </div>
+                  </li>
+
+                  <li data-aos="fade-right" data-aos-duration="2700">
+                    <div class="car-con p-2 border-1 border-slate-100 rounded-md hover:shadow-lg">
+                      <div class="flex items-center gap-3">
+                        <ion-icon name="mail-unread-outline" class="bg-slate-100 px-1 py-1 rounded-md text-blue-700"></ion-icon>
+                        <div>
+                          <h3 class="font-semibold">Message</h3>
+                          <p class="text-gray-400">01152341782</p>
+                        </div>
+                      </div>
+                      <button class="bg-blue-50 text-blue-700 py-2 rounded-md mt-4 w-100 font-semibold px-2">Message Now</button>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section-sex mb-20" data-aos="fade-down" data-aos-duration="2100">
+          <div class="container-fluid">
+            <div class="bg-blue-400 p-2 rounded-md">
+              <div class="Started bg-blue-500 rounded-md text-center pt-5 pb-5">
+                <h1 class="text-white text-xl mb-3">Get started With Holx</h1>
+                <p class="text-white lead">Subscribe and find super attractive price quotes from us find your residence soon</p>
+                <button class="border-2 border-white hover:bg-white mt-5 text-white rounded-md px-4 py-2 font-semibold">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="border-t border-t-slate-100">
+          <div class="container-fluid">
+            <div class="footer-top mb-20 mt-9">
+              <ul class="footer-top-list">
+                <li class="foot-one" data-aos="fade-down" data-aos-duration="100">
+                  <a href="#" class="flex items-center gap-1 text-3xl font-serif"><ion-icon name="home-outline" class="text-blue-600 text-xl mb-mB"></ion-icon>Holix</a>
+                  <p>our vision is to make all people the best place to live for them</p>
+                </li>
+
+                <li data-aos="fade-down" data-aos-duration="500">
+                  <h1 class="text-blue-700 font-semibold mb-3">About</h1>
+                  <ul class="grid gap-2">
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">About us</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">Features</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">News & Blog</li>
+                  </ul>
+                </li>
+
+                <li data-aos="fade-down" data-aos-duration="700">
+                  <h1 class="text-blue-700 font-semibold mb-3">Company</h1>
+                  <ul class="grid gap-2">
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">How We Work?</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">Capitals</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">Security</li>
+                  </ul>
+                </li>
+
+                <li data-aos="fade-down" data-aos-duration="800">
+                  <h1 class="text-blue-700 font-semibold mb-3">Support</h1>
+                  <ul class="grid gap-2">
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">FAQ</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">Support Center</li>
+                    <li class="text-gray-500 cursor-pointer hover:text-gray-700">Contact Us</li>
+                  </ul>
+                </li>
+
+                <li data-aos="fade-down" data-aos-duration="900">
+                  <h1 class="text-blue-700 font-semibold mb-3">Follow us</h1>
+                  <ul class="flex gap-3">
+                    <li class="text-gray-500"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="text-gray-500"><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="text-gray-500"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-bottom text-center">
+              <p>&copy; IslamRabea All rights reversed</p>
+              <div class="flex gap-4 justify-center mt-2 pb-20 mb-0">
+                <span>Terms & Agreement</span>
+                <p>Privacy Policy</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="top">
+          <a href="#top" class="back-top-btn position-fixed text-blue-600 rounded-md bg-slate-200 hover:bg-blue-600 flex justify-center" aria-label="back to top" data-back-top-btn>
+            <ion-icon name="chevron-forward-outline" role="img" class="md"></ion-icon>
+        </a>
+        </div>
+
+        <div class="links-icon flex justify-center z-50">
+            <ul class="links-list bg-white shadow-md w-full max-w-64 flex justify-around items-center rounded-md fixed bottom-5">
+                <a href="#Home" class="flex"><ion-icon name="storefront-outline" class="link-icon text-xl" data-tab-btn></ion-icon></a>
+                <a href="#slider" class="flex"><ion-icon name="business-outline" class="link-icon text-xl" data-tab-btn></ion-icon></a>
+                <a href="#Projects" class="flex"><ion-icon name="people-outline" class="link-icon text-xl" data-tab-btn></ion-icon></a>
+                <a href="#Contact" class="flex"><ion-icon name="call-outline" class="link-icon text-xl" data-tab-btn></ion-icon></a>
+
+                <a href="#top" class="back-top-btn flex" aria-label="back to top" data-back-top-btn>
+                  <ion-icon name="chevron-forward-outline" role="img" class="link-icon" data-tab-btn></ion-icon>
+              </a>
+            </ul>
+        </div>
+
+        <script>
+            document.onkeydown = function (e) {
+                if (event.keyCode == 1) {
+                    return false;
+                }
+
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+            }
+        </script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+      </script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="index.js"></script>
+        <script src="cdn.tailwindcss"></script>
+        <script src="tailwind.confige.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    </body>
+</html>
